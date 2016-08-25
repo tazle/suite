@@ -30,6 +30,15 @@
     </repository>
 
     <repository>
+      <id>boundless-release</id>
+      <name>Boundless Maven Release Repository</name>
+      <url>https://repo.boundlessgeo.com/release/</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+
+    <repository>
       <id>boundless-libs-release-local</id>
       <name>Boundless Libs-Release-Local Maven Repository</name>
       <url>https://repo.boundlessgeo.com/artifactory/libs-release-local/</url>
